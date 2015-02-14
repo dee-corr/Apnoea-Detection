@@ -19,7 +19,7 @@
 while read  line
 do
 	echo Got: $line
-	echo $line | mosquitto_pub -h ec2-54-148-240-101.us-west-2.compute.amazonaws.com -s -t test
+	echo Mark Says: $line | mosquitto_pub -h ec2-54-148-240-101.us-west-2.compute.amazonaws.com -s -t test -q 2
 done
 
 
