@@ -1,0 +1,2 @@
+echo "EOF" >> rawFile.txt
+

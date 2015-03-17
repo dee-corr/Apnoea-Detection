@@ -1,0 +1,6 @@
+#!/usr/bin/Rscript
+
+Test <- read.csv("~/TreasaTest2.csv", header=FALSE);
+Fs=12.5;
+
+

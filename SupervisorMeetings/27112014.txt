@@ -1,0 +1,9 @@
+Meeting 26/11/2014
+
+-talked about the linux command tool gatttool as part of the Bluez package to interact and read in data from the sensors
+-talked about putting bash command into perl script, putting perl values in the bash command
+-possibility of needing a second bluetooth dongle
+-received raspberry pi device
+-talked about predefined commands with the accelerometer
+-talked about distributing processing among system components (eg. not sending every single piece of data to the MQTT server (might overload it and unnecessary), distinguish what data needs to be sent immediately (for alerting) and what data can be sent later(i.e. during the day in background mode).
+-talked about high and low xxx.
